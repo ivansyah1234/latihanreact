@@ -1,0 +1,123 @@
+.login-page {
+  /* Gaya untuk halaman login */
+  background-image: url('https://sisbpas.thetechnos.com/app-assets/images/bg_login.jpeg');
+  padding: 20px;
+  /* Atur ukuran, font, warna teks, dll. sesuai kebutuhan */
+  display: flex;
+  justify-content: flex-end; /* Memindahkan kontainer ke sebelah kanan */
+  align-items: center; /* Menyelaraskan kontainer secara vertikal di tengah */
+  height: 80vh; /* Mengatur tinggi tampilan agar 100% dari tinggi viewport */
+  margin: 0; /* Menghilangkan margin default pada body */
+  background-image: url('https://sisbpas.thetechnos.com/app-assets/images/bg_login.jpeg');
+  background-size: cover; /* Memastikan gambar latar belakang menutupi seluruh area */
+  background-position: center; /* Memposisikan gambar latar belakang di tengah */
+}
+
+
+.login-container {
+    /* width: 300px;
+    margin: 0 auto; 
+    padding: 20px;
+    border: 1px solid #283046;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color:#283046;
+    color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#283046;
+    height : 620px;
+    /* position: absolute; */
+    position: relative;
+    left: 20px;
+    /* border: 1px solid #283046;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    width: 425px;
+    margin: 0 auto; 
+    padding: 20px;
+  
+  }
+  
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    color:white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+
+  }
+
+  
+  
+  
+  .input-group input {
+    /* width: 100%; */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color:#283046;
+    color:white;
+   
+  }
+  .password-container {
+    position: relative; /* Menjadikan kontainer relatif untuk mengatur posisi ikon */
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .password-container input {
+    width: calc(100% - 30px); /* Lebar penuh dikurangi ruang untuk ikon */
+    padding-right: 30px; /* Jarak dalam kanan untuk ikon */
+  }
+  
+  .toggle-password {
+    position: absolute; /* Posisi absolut untuk ikon */
+    right: 10px; /* Jarak kanan ikon */
+    top: 50%; /* Posisi tengah vertikal */
+    transform: translateY(-50%); /* Memindahkan ikon ke tengah */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat dihover */
+  }
+  
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    overflow: hidden;
+    /* width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff; */
+  }
+  
+  button[type="submit"]:hover {
+    background-color:#7367f0;
+    width: 100%;
+    /* border: 2px solid #ccc;  */
+  }

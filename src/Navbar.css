@@ -1,0 +1,204 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #475068;
+  color: #fff;
+  /* padding: 20px; */
+  width: 98%;
+  margin-bottom:0rem;
+  margin-left:0.7rem;
+  
+  
+  
+}
+.navbar-content {
+  text-align: left; /* Posisikan teks ke tengah */
+  
+}
+
+.navbar-content h1 {
+  margin: 0; /* Hapus margin atas dan bawah pada judul */
+  font-size: 24px; /* Atur ukuran font judul */
+}
+
+.navbar-content p {
+  margin: 0; /* Hapus margin atas dan bawah pada paragraf */
+  font-size: 18px; /* Atur ukuran font paragraf */
+}
+
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  color: white;
+}
+
+.navbar ul li {
+  margin: 0 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color:white;
+  display: flex;
+  align-items: center;
+}
+
+.round {
+  border-radius: 50%;
+  margin-right: 5px; /* Jarak antara gambar dan teks */
+}
+/* Menu Notifikasi */
+.notification-menu {
+  position: relative;
+}
+
+.notification-badge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background-color: red;
+  color: #fff;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+/* .navbar:last-child {
+  background-color: #475068;
+  padding: 1.5rem;
+  
+}
+
+.navbar:last-child ul {
+  justify-content: flex-end;
+}
+
+.navbar:last-child li {
+  margin-left: 1rem; */
+/* } */
+/* .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items at the top */
+/* } */ */
+
+
+/* Card CSS */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Baris Kotak CSS */
+.card-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0rem;
+}
+
+/* Kotak CSS */
+.card-body {
+  background-color: #475068;
+  border-radius: 5px;
+  padding: 4px;
+  margin: 5px 10px; /* Tetapkan nilai margin atas bawah */
+  text-align: left;
+  color: white;
+}
+
+/* Konten Kotak CSS */
+.card-content {
+  margin-bottom: 0rem;
+}
+
+/* Gambar CSS */
+.card-img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+  margin-left: 200px; /* Ubah sesuai kebutuhan */
+}
+
+/* Tombol CSS */
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+/* Tombol Dinonaktifkan CSS */
+.btn:disabled {
+  background-color: #007bff;
+  cursor: not-allowed;
+}
+
+/* Menu Admin */
+.admin-menu {}
+
+/* Menu Pencerahan */
+.enlightenment-menu {}
+
+/* Menu Pencarian */
+.search-menu {}
+
+/* @media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .navbar ul {
+    margin-top: 10px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar ul li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .search-menu form {
+    width: 100%;
+  }
+
+  .search-menu input[type="text"] {
+    flex-grow: 1;
+  }
+} */ 
+/* .navbar {
+  height: 60px;
+  background-color: #333;
+  color: #fff;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.navbar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar nav ul li a {
+  color: #fff;
+  text-decoration: none;
+} */

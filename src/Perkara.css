@@ -1,0 +1,66 @@
+.perkara-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #475068;
+  color: #fff;
+  padding: 0.9rem;
+  width: 82%;
+  margin-bottom: 1rem;
+  margin-left: 12rem;
+}
+
+.perkara-navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.perkara-navbar ul li {
+  margin: 0 10px;
+}
+
+.perkara-navbar ul li a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.notification-menu {
+  position: relative;
+}
+
+.notification-perkara {
+  position: absolute;
+  top: 27px;
+  right: 131px;
+  background-color: red;
+  color: #fff;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+.perkara-round {
+  border-radius: 50%;
+}
+
+/* Card styling */
+.card {
+  background-color: white;
+  color: white; /* Dark blue text color */
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 82%;
+  margin-bottom: 1rem;
+  margin-left: 12rem;
+}
+
+

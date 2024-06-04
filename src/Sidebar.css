@@ -1,0 +1,111 @@
+body {
+  background-color: #283046; /* Warna latar belakang untuk seluruh halaman */
+  margin: 0; /* Menghapus margin default dari body */
+  padding: 0; /* Menghapus padding default dari body */
+}
+.sidebar {
+  /* width: 200px; */
+  background-color: #475068;
+  padding: 1rem;
+  height: 100vh; /* Full height */
+  position: fixed; /* Fixed Sidebar (stay in place) */
+  overflow: auto; /* Enable scrolling if the sidebar content exceeds the viewport */
+  color:white;
+}
+.sidebar-logo {
+  width: 100px; /* Lebar tetap untuk logo */
+  height: auto; /* Menjaga aspek rasio gambar */
+  display: block;
+  margin: 0 auto 1rem auto; /* Tengah kan gambar dan tambahkan margin bawah */
+  float: left; /* Mengatur posisi logo ke kiri */
+  max-width: 36px; /* Lebar maksimum untuk responsif */
+}
+
+.sidebar .logo-text {
+  font-size: 20px; /* Ukuran font yang sama dengan logo */
+  padding: 9px;
+  font-size: 25px;
+  border-radius: 5px;
+  margin: 0 auto 1rem auto; /* Tengah kan teks dan tambahkan margin bawah */
+  padding-left: 50px; /* Tambahkan padding kiri agar sejajar dengan logo */
+  line-height: 20px; /* Sesuaikan ketinggian baris untuk posisi vertikal yang sejajar */
+}
+
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin: 1rem 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.sidebar ul li a .icon {
+  margin-right: 8px; /* Tambahkan jarak antara ikon dan teks */
+}
+
+.sidebar ul li a:hover {
+  color: #007bff;
+}
+/* .sidebar {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  
+  .sidebar_icon {
+    background-color: #333;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .sidebar_icon:hover {
+    background-color: #555;
+  }
+  
+  .sidebar_icon i {
+    font-size: 1.7rem;
+  }
+  
+  .sidebar_items {
+    background-color: #333;
+    color: white;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .sidebar_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .sidebar_item:hover {
+    background-color: #555;
+  }
+  
+  .sidebar_item i {
+    font-size: 1.3rem;
+    margin-right: 10px;
+  }
+  
+  .sidebar_item p {
+    font-size: 1rem;
+  } */
